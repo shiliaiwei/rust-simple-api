@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: rust-simple-api
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
